@@ -1,0 +1,89 @@
+body {
+    color: black;
+    background: black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.wd-site-container {
+    border: 1px solid rgb(47, 51, 54);
+    max-width: 500px;
+}
+
+.wd-main-content {
+    max-width: 1000px;
+    border: 1px solid rgb(47, 51, 54);
+    padding: 16px;
+    padding-bottom: 0px;
+}
+
+.wd-bg-color-gray { background-color: rgb(47, 51, 54); }
+
+.wd-padding {
+    padding: 10px;
+}
+
+.wd-no-border { border-width: 0px; }
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-left-border {
+    float: left;
+    width: 12.5%
+}
+
+.wd-border-thin { border-width: 4px; }
+
+.wd-border-gray { border-color: rgb(47, 51, 54); }
+
+.wd-explore-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-selected-link {
+    text-decoration: none;
+    color: rgb(29, 161, 242);
+    border-bottom: 4px solid rgb(29, 161, 242);
+}
+
+.wd-unselected-link {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.wd-tweet-list {
+    list-style-type: none;
+}
+
+.wd-title-text {
+    color: white;
+    margin: 0;
+}
+
+.wd-other-text {
+    color: rgb(110, 118, 125);;
+}
+
+p { margin: 0 }
+
+.wd-tweet-frame {
+    max-width: 1000px;
+}
+
+.wd-tweet {
+    max-width: 500px;
+    border: 1px solid rgb(47, 51, 54);
+    padding: 16px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.wd-tweet-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+}
