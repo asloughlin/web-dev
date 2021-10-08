@@ -1,0 +1,52 @@
+.fg-color-black { color: black; }
+.fg-color-white { color: white; }
+.fg-color-blue { color: #7070ff; }
+.fg-color-red { color: #ff7070; }
+.fg-color-green { color: green; }
+
+.bg-color-yellow
+{ background-color: #ffff07; }
+.bg-color-blue
+{ background-color: #7070ff; }
+.bg-color-red
+{ background-color: #ff7070; }
+.bg-color-green
+{ background-color: green; }
+
+.form {
+    position: relative;
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-control {
+    border-radius: 12px;
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+.bottom-left-text {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,102 @@
+body {
+    color: black;
+    background: black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.wd-site-container {
+    border: 1px solid rgb(47, 51, 54);
+    width: 500px;
+}
+
+.wd-tweet {
+    max-width: 500px;
+    border: 1px solid rgb(47, 51, 54);
+    padding: 16px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.wd-title-text {
+    color: white;
+    margin: 0;
+}
+
+.wd-other-text {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    margin: 0;
+}
+
+.wd-profile-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.wd-full-size-image-frame {
+    border-radius: 12px;
+    border: 1px solid rgb(47, 51, 54);
+    margin-top: 12px;
+}
+
+.wd-full-size-image {
+    border-bottom: 1px solid rgb(47, 51, 54);
+    height: 221px;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.wd-tweet-interaction {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-no-decoration {
+    text-decoration: none;
+}
+
+.wd-stroke-color-sky-blue {
+    stroke: rgb(29, 161, 242);
+}
+
+.wd-stroke-color-light-gray {
+    stroke: rgb(110, 118, 125);
+}
+
+.wd-stroke-color-red {
+    stroke: rgb(210, 4, 45);
+}
+
+.wd-color-red {
+    color: rgb(210, 4, 45);
+}
+
+.wd-spacing {
+    width: 12px;
+}
+
+.wd-max-content-width {
+    width: 424px;
+}
+
+.wd-inline {
+    display: inline;
+}
+
+.wd-margin {
+    margin: 12px;
+}
+
+.wd-tweet-interaction-height {
+    height: 12px;
+}

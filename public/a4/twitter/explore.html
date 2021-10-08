@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="explore.css" rel="stylesheet"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="container p-2">
+    <div class="row">
+        <div class="col-1 col-xl-2">
+            <ul class="list-group mb-2 mt-2">
+                <li class="list-group-item"><i class="fab fa-twitter"></i></li>
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-home"></i>
+                        <p class="d-none d-xl-block mx-2" style="margin: 0; display: inline;"> Home</p>
+                    </div>
+                </li>
+                <li class="list-group-item active">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-hashtag"></i>
+                        <p class="d-none d-xl-block mx-2" style="margin: 0; display: inline;"> Explore</p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-bell"></i>
+                        <p class="d-none d-xl-block mx-2" style="margin: 0; display: inline;"> Notifications</p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-envelope"></i>
+                        <p class="d-none d-xl-block mx-2" style="margin: 0; display: inline;"> Messages</p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-bookmark"></i>
+                        <p class="d-none d-xl-block mx-2" style="margin: 0; display: inline;"> Bookmarks</p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-list"></i>
+                        <p class="d-none d-xl-block mx-2" style="margin: 0; display: inline;"> Lists</p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-user-alt"></i>
+                        <p class="d-none d-xl-block mx-2" style="margin: 0; display: inline;"> Profile</p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-comment-dots"></i>
+                        <p class="d-none d-xl-block mx-2" style="margin: 0; display: inline;"> More</p>
+                    </div>
+                </li>
+            </ul>
+            <button style="min-width: 100%; border-radius: 24px;" class="btn btn-primary mx-auto">
+                Tweet
+            </button>
+
+        </div>
+        <div class="col-sm-9 col-lg-7">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="form mb-2 mt-2 px-1" style="border-radius: 24px; width:100%;">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="form-control form-input rounded-pill" placeholder="Search Twitter">
+                </div>
+                <div class="align-middle">
+                    <i class="fas fa-cog" style="color: rgb(29, 161, 242); font-size: 2.5em;"></i>
+                </div>
+            </div>
+            <ul class="nav nav-tabs mb-2 mt-2 ">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item d-sm-none d-md-block">
+                    <a class="nav-link" href="#">Entertainment</a>
+                </li>
+            </ul>
+            <div>
+                <div class="img-container">
+                    <img style="width: 100%;" src="spacex.png">
+                    <div class="bottom-left-text">
+                        <p style="margin:0; font-size: 35px; font-weight: bold;" class="fg-color-white">SpaceX's
+                            Starship</p>
+                    </div>
+                </div>
+
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="">
+                                <p style="margin:0;">Web Developement</p>
+                                <p style="display: inline; font-weight: bold;">ReactJS</p>
+                                <i style="display: inline;" class="fas fa-check-circle"></i>
+                                <p style="display: inline; margin:0;"> • 2h</p>
+                                <p style="font-weight: bold; margin:0;">React.js is a component based front end library
+                                    that
+                                    makes it very easy to build Single Page Applications or SPAs</p>
+                            </div>
+                            <div class="">
+                                <img style="width: 100px; height: 100px; border-radius: 12px;" src="reactjs.png"
+                                     alt="MA">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="">
+                                <p style="display: inline; font-weight: bold;">JavaScript</p>
+                                <i style="display: inline;" class="fas fa-check-circle"></i>
+                                <p style="display: inline; margin:0;"> • 2h</p>
+                                <p style="font-weight: bold; margin:0;">JavaScript is a programming language that can
+                                    run on
+                                    browsers as well as desktops</p>
+                                <p style="margin:0;">123K Tweets</p>
+                            </div>
+                            <div class="">
+                                <img style="width: 100px; height: 100px; border-radius: 12px;" src="js.png" alt="MA">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="">
+                                <p style="margin:0;">Web Developement</p>
+                                <p style="display: inline; font-weight: bold;">jQuery</p>
+                                <p style="margin:0;">123K Tweets</p>
+                            </div>
+                            <div class="">
+                                <img style="width: 100px; height: 100px; border-radius: 12px;" src="jquery.png"
+                                     alt="MA">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="">
+                                <p style="margin:0;">Web Developement</p>
+                                <p style="display: inline; font-weight: bold;">NodeJS</p>
+                                <i style="display: inline;" class="fas fa-check-circle"></i>
+                                <p style="display: inline; margin:0;"> • 2h</p>
+                                <p style="margin:0;">123K Tweets</p>
+                            </div>
+                            <div class="">
+                                <img style="width: 100px; height: 100px; border-radius: 12px;" src="nodejs.png"
+                                     alt="MA">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-0 col-lg-4 col-xl-3 mb-2 mt-2 d-none d-lg-block">
+            <ul class="list-group">
+                <li class="list-group-item"><p style="font-weight: bold; margin:0">Who to Follow</p></li>
+                <li class="list-group-item">
+                    <div class="row justify-content-start align-items-center">
+                        <div class="col-2">
+                            <img style="width: 50px;" src="java.png" class="rounded-circle">
+                        </div>
+                        <div class="col-7">
+                            <p style="font-weight: bold; margin:0; display:inline;">Java</p>
+                            <i class="fas fa-check-circle"></i>
+                            <p style="margin:0;">@Java</p>
+                        </div>
+                        <div class="col-1">
+                            <button style="border-radius: 24px;" class="btn btn-primary mx-auto">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row justify-content-start align-items-center">
+                        <div class="col-2">
+                            <img style="width: 50px;" src="relativityspace.png" class="rounded-circle">
+                        </div>
+                        <div class="col-7">
+                            <p style="font-weight: bold; margin:0; display:inline;">Relativity Space</p>
+                            <i class="fas fa-check-circle"></i>
+                            <p style="margin:0;">@relativityspace</p>
+                        </div>
+                        <div class="col-1">
+                            <button style="border-radius: 24px;" class="btn btn-primary mx-auto">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row justify-content-start align-items-center">
+                        <div class="col-2">
+                            <img style="width: 50px;" src="virgingalactic.png" class="rounded-circle">
+                        </div>
+                        <div class="col-7">
+                            <p style="font-weight: bold; margin:0; display:inline;">Virgin Galactic</p>
+                            <i class="fas fa-check-circle"></i>
+                            <p style="margin:0;">@virgingalactic</p>
+                        </div>
+                        <div class="col-1">
+                            <button style="border-radius: 24px;" class="btn btn-primary mx-auto">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row justify-content-start align-items-center">
+                        <div class="col-2">
+                            <img style="width: 50px;" src="nasa.png" class="rounded-circle">
+                        </div>
+                        <div class="col-7">
+                            <p style="font-weight: bold; margin:0; display:inline;">NASA</p>
+                            <i class="fas fa-check-circle"></i>
+                            <p style="margin:0;">@NASA</p>
+                        </div>
+                        <div class="col-1">
+                            <button style="border-radius: 24px;" class="btn btn-primary mx-auto">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row justify-content-start align-items-center">
+                        <div class="col-2">
+                            <img style="width: 50px;" src="tesla.png" class="rounded-circle">
+                        </div>
+                        <div class="col-7">
+                            <p style="font-weight: bold; margin:0; display:inline;">Tesla</p>
+                            <i class="fas fa-check-circle"></i>
+                            <p style="margin:0;">@Tesla</p>
+                        </div>
+                        <div class="col-1">
+                            <button style="border-radius: 24px;" class="btn btn-primary mx-auto">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
