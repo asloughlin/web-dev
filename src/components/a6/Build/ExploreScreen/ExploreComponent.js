@@ -41,24 +41,24 @@ const ExploreComponent = () => {
         </div>
         <ul className="nav nav-tabs mb-2 mt-2 ">
             <li className="nav-item">
-                <a className="nav-link active" href="#">For You</a>
+                <a className="nav-link active" href="/#">For You</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Trending</a>
+                <a className="nav-link" href="/#">Trending</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">News</a>
+                <a className="nav-link" href="/#">News</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Sports</a>
+                <a className="nav-link" href="/#">Sports</a>
             </li>
             <li className="nav-item d-sm-none d-md-block">
-                <a className="nav-link" href="#">Entertainment</a>
+                <a className="nav-link" href="/#">Entertainment</a>
             </li>
         </ul>
 
         <div style={wdImgContainer}>
-            <img style={wdLargeImage} src="../../images/spacex.png"/>
+            <img alt="" style={wdLargeImage} src="../../images/spacex.png"/>
             <div style={wdBottomLeftText}>
                 <p style={wdLargeText} className="fg-color-white">SpaceX's
                     Starship</p>
