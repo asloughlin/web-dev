@@ -17,10 +17,8 @@ const tweets = (state = posts, action) => {
                         return tweet;
                     }
             });
-            break;
         case 'delete-tweet':
             return state.filter(tweet => tweet._id !== action.tweet._id);
-            break;
         case 'create-tweet':
             const tweet = {
                 _id: (new Date()).getTime() + '',
@@ -45,7 +43,6 @@ const tweets = (state = posts, action) => {
                 },
                 ...state
             ]);
-            break;
         default:
             return(state);
     }

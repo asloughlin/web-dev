@@ -14,7 +14,7 @@ const WhatsHappening = () => {
     <table>
         <tr>
             <td className="align-text-top">
-                <img className="rounded-circle wd-avatar-image" src="../../../images/starship.png"/>
+                <img alt="" className="rounded-circle wd-avatar-image" src="../../../images/starship.png"/>
             </td>
             <td className="ps-3" style={{width: '100%'}}>
                 <div>
