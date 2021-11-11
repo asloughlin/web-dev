@@ -1,21 +1,31 @@
 import './App.css'
-import HelloWorld from "./components/a6/HelloWorld";
-import Practice from "./components/a6/Practice/index.js";
-import Build from "./components/a6/Build/index.js";
+import HelloWorld6 from "./components/a6/HelloWorld";
+import Practice6 from "./components/a6/Practice/index.js";
+import Build6 from "./components/a6/Build/index.js";
+import Practice7 from "./components/a7/Practice/index.js";
+import Build7 from "./components/a7/Build/index.js";
 import {BrowserRouter, Route} from "react-router-dom";
 
 function App() {
     return (
         <BrowserRouter>
             <div className="container">
+                <h1>Assignment 6</h1>
                 <Route path="/a6/hello" exact={true}>
-                    <HelloWorld/>
+                    <HelloWorld6/>
                 </Route>
                 <Route path={["/", "/a6", "/a6/practice"]} exact={true}>
-                    <Practice/>
+                    <Practice6/>
                 </Route>
                 <Route path="/a6/build" exact={true}>
-                    <Build/>
+                    <Build6/>
+                </Route>
+                <h1>Assignment 7</h1>
+                <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
+                    <Practice7/>
+                </Route>
+                <Route path="/a7/build">
+                    <Build7/>
                 </Route>
             </div>
         </BrowserRouter>
