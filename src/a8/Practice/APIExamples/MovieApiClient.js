@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 const MovieApiClient = () => {
     const deleteMovie = (movie) =>
-    fetch(`http://web-dev-cs4550.herokuapp.com/api/movies/${movie._id}`, {
+    fetch('http://web-dev-cs4550.herokuapp.com/api/movies/${movie._id}', {
         method: 'DELETE'
     })
         .then(response => response.json())
@@ -29,7 +29,7 @@ const onMovieTitleChange = (event) =>
         .then(movies => setMovies(movies));
 
     const saveMovie = () =>
-    fetch(`http://web-dev-cs4550.herokuapp.com/api/movies/${movie._id}`, {
+    fetch('http://web-dev-cs4550.herokuapp.com/api/movies/${movie._id}', {
         method: 'PUT',
         body: JSON.stringify(movie),
         headers: {
