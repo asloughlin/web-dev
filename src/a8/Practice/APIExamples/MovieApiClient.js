@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 const MovieApiClient = () => {
     const deleteMovie = (movie) =>
-    fetch(`http://web-dev-cs4550.herokuapp.com/api/movies/${movie._id}`, {
+    fetch(`https://web-dev-cs4550.herokuapp.com/api/movies/${movie._id}`, {
         method: 'DELETE'
     })
         .then(response => response.json())
@@ -9,7 +9,7 @@ const MovieApiClient = () => {
 
     const [movies, setMovies] = useState([]);
     useEffect(() =>
-        fetch('http://web-dev-cs4550.herokuapp.com/api/movies')
+        fetch('https://web-dev-cs4550.herokuapp.com/api/movies')
             .then(response => response.json())
             .then(movies => setMovies(movies))
         , []);
@@ -18,7 +18,7 @@ const MovieApiClient = () => {
 const onMovieTitleChange = (event) =>
     setMovie({...movie, _id: (new Date()).getTime() + "", title: event.target.value});
     const createMovieClickHandler = () =>
-        fetch('http://web-dev-cs4550.herokuapp.com/api/movies', {
+        fetch('https://web-dev-cs4550.herokuapp.com/api/movies', {
             method: 'POST',
             body: JSON.stringify(movie),
             headers: {
@@ -29,7 +29,7 @@ const onMovieTitleChange = (event) =>
         .then(movies => setMovies(movies));
 
     const saveMovie = () =>
-    fetch(`http://web-dev-cs4550.herokuapp.com/api/movies/${movie._id}`, {
+    fetch(`https://web-dev-cs4550.herokuapp.com/api/movies/${movie._id}`, {
         method: 'PUT',
         body: JSON.stringify(movie),
         headers: {
