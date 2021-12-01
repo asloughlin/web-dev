@@ -7,6 +7,7 @@ import Build7 from "./components/a7/Build/index.js";
 import Practice8 from "./a8/Practice/index.js";
 import Build8 from "./a8/Build/components/index.js";
 import {BrowserRouter, Route} from "react-router-dom";
+import A9 from "./a9/index.js"
 
 function App() {
     return (
@@ -37,6 +38,10 @@ function App() {
                 </Route>
                 <Route path="/a8/build">
                     <Build8/>
+                </Route>
+                <h1>Assignment 9</h1>
+                <Route path={["/", "/a9"]}>
+                    <A9/>
                 </Route>
             </div>
         </BrowserRouter>
