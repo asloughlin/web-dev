@@ -31,6 +31,12 @@ export const updateMovie = (movie) =>
     }
   }).then(response => response.json());
 
-export default {
-  findAllMovies, deleteMovie, createMovie, findMovieById, updateMovie
+const exportedObject = {
+     findAllMovies,
+     deleteMovie,
+     createMovie,
+     findMovieById,
+     updateMovie,
 };
+
+export default exportedObject;
