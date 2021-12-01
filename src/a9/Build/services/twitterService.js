@@ -1,4 +1,5 @@
-const TWEET_API = 'https://web-dev-cs4550.herokuapp.com/api/tweets';
+const TWEET_API = 'https://web-dev-cs4550.herokuapp.com/api/a9/tweets';
+// const TWEET_API = 'http://localhost:4000/api/a9/tweets';
 
 export const fetchAllTweets = (dispatch) =>
     fetch(TWEET_API)
